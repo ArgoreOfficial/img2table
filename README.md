@@ -9,7 +9,7 @@ simply drag and drop an image file onto the exe and it will create a .lua file
 
 run the exe with your image, and add the lua file to your gadget as usual
 ```lua
-require( "img.lua" )
+local img = require( "img.lua" )
 
 local vc = gdt.VideoChip0
 local rb = vc.RenderBuffers[1]
