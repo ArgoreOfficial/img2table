@@ -1,0 +1,4 @@
+﻿.xmake
+*.pdb
+*.ilk
+build
